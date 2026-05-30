@@ -1,0 +1,62 @@
+{
+    "sourceFile": "src/pages/Faculty.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1759934135737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1759934223168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,8 @@\n         <h3>Assistant</h3>\r\n         <h3>School of River Studies</h3>\r\n       </div>\r\n       <div className=\"Faculty-box\">\r\n-        <h1>Staff</h1>\r\n         <img src={Staff1} alt=\"Staff\" />\r\n         <h3>Gaurav Kumar</h3>\r\n         <h3>B.Tech(Electronics and Communication Engineering)</h3>\r\n         <h3>Assistant</h3>\r\n"
+                },
+                {
+                    "date": 1759934634373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,15 +24,19 @@\n         <h3>Nitish Kumar</h3>\r\n         <h3>B.Tech(Electronics and Communication Engineering)</h3>\r\n         <h3>Assistant</h3>\r\n         <h3>School of River Studies</h3>\r\n+         <h3>nitishrock808@gmail.com</h3>\r\n+        <h3>7779840265</h3>\r\n       </div>\r\n       <div className=\"Faculty-box\">\r\n         <img src={Staff1} alt=\"Staff\" />\r\n         <h3>Gaurav Kumar</h3>\r\n-        <h3>B.Tech(Electronics and Communication Engineering)</h3>\r\n-        <h3>Assistant</h3>\r\n+        <h3>PGDM(MBA)</h3> <h3>B.COM</h3>\r\n+        <h3>MTCO</h3>\r\n         <h3>School of River Studies</h3>\r\n+        <h3>g.kr01aku@gmail.com</h3>\r\n+        <h3>7979062749</h3>\r\n       </div>\r\n     </>\r\n   );\r\n }\r\n"
+                },
+                {
+                    "date": 1759934742803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,18 +19,18 @@\n         <h3>School of River Studies</h3>\r\n       </div>\r\n       <div className=\"Faculty-box\">\r\n         <h1>Staff</h1>\r\n-        <img src={Staff1} alt=\"Staff\" />\r\n+        <img src={Staff2} alt=\"Staff\" />\r\n         <h3>Nitish Kumar</h3>\r\n         <h3>B.Tech(Electronics and Communication Engineering)</h3>\r\n         <h3>Assistant</h3>\r\n         <h3>School of River Studies</h3>\r\n          <h3>nitishrock808@gmail.com</h3>\r\n         <h3>7779840265</h3>\r\n       </div>\r\n       <div className=\"Faculty-box\">\r\n-        <img src={Staff1} alt=\"Staff\" />\r\n+        <img src={Staff3} alt=\"Staff\" />\r\n         <h3>Gaurav Kumar</h3>\r\n         <h3>PGDM(MBA)</h3> <h3>B.COM</h3>\r\n         <h3>MTCO</h3>\r\n         <h3>School of River Studies</h3>\r\n"
+                },
+                {
+                    "date": 1759934774294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\r\n import \"../Styles/Faculty.css\";\r\n import Staff from \"../Assests/staff1.jpg\";\r\n-// import Staff1 from'../Assests/staff2.jpg'\r\n+ import Staff1 from'../Assests/staff2.jpg'\r\n import Staff1 from \"../Assests/staff3.jpg\";\r\n function Faculty() {\r\n   return (\r\n     <>\r\n"
+                },
+                {
+                    "date": 1759934798853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\r\n import \"../Styles/Faculty.css\";\r\n import Staff from \"../Assests/staff1.jpg\";\r\n- import Staff1 from'../Assests/staff2.jpg'\r\n+// import Staff1 from'../Assests/staff2.jpg'\r\n import Staff1 from \"../Assests/staff3.jpg\";\r\n function Faculty() {\r\n   return (\r\n     <>\r\n@@ -19,18 +19,18 @@\n         <h3>School of River Studies</h3>\r\n       </div>\r\n       <div className=\"Faculty-box\">\r\n         <h1>Staff</h1>\r\n-        <img src={Staff2} alt=\"Staff\" />\r\n+        <img src={Staff1} alt=\"Staff\" />\r\n         <h3>Nitish Kumar</h3>\r\n         <h3>B.Tech(Electronics and Communication Engineering)</h3>\r\n         <h3>Assistant</h3>\r\n         <h3>School of River Studies</h3>\r\n          <h3>nitishrock808@gmail.com</h3>\r\n         <h3>7779840265</h3>\r\n       </div>\r\n       <div className=\"Faculty-box\">\r\n-        <img src={Staff3} alt=\"Staff\" />\r\n+        <img src={Staff} alt=\"Staff\" />\r\n         <h3>Gaurav Kumar</h3>\r\n         <h3>PGDM(MBA)</h3> <h3>B.COM</h3>\r\n         <h3>MTCO</h3>\r\n         <h3>School of River Studies</h3>\r\n"
+                },
+                {
+                    "date": 1759934822345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\r\n import \"../Styles/Faculty.css\";\r\n import Staff from \"../Assests/staff1.jpg\";\r\n-// import Staff1 from'../Assests/staff2.jpg'\r\n+import Staff1 from'../Assests/staff2.jpg'\r\n import Staff1 from \"../Assests/staff3.jpg\";\r\n function Faculty() {\r\n   return (\r\n     <>\r\n"
+                },
+                {
+                    "date": 1759934856412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\r\n import \"../Styles/Faculty.css\";\r\n import Staff from \"../Assests/staff1.jpg\";\r\n-import Staff1 from'../Assests/staff2.jpg'\r\n+import Staff2 from'../Assests/staff2.jpg'\r\n import Staff1 from \"../Assests/staff3.jpg\";\r\n function Faculty() {\r\n   return (\r\n     <>\r\n@@ -28,9 +28,9 @@\n          <h3>nitishrock808@gmail.com</h3>\r\n         <h3>7779840265</h3>\r\n       </div>\r\n       <div className=\"Faculty-box\">\r\n-        <img src={Staff} alt=\"Staff\" />\r\n+        <img src={Staff2} alt=\"Staff\" />\r\n         <h3>Gaurav Kumar</h3>\r\n         <h3>PGDM(MBA)</h3> <h3>B.COM</h3>\r\n         <h3>MTCO</h3>\r\n         <h3>School of River Studies</h3>\r\n"
+                },
+                {
+                    "date": 1759936611017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,18 +19,18 @@\n         <h3>School of River Studies</h3>\r\n       </div>\r\n       <div className=\"Faculty-box\">\r\n         <h1>Staff</h1>\r\n-        <img src={Staff1} alt=\"Staff\" />\r\n+        <img src={Staff2} alt=\"Staff\" />\r\n         <h3>Nitish Kumar</h3>\r\n         <h3>B.Tech(Electronics and Communication Engineering)</h3>\r\n         <h3>Assistant</h3>\r\n         <h3>School of River Studies</h3>\r\n          <h3>nitishrock808@gmail.com</h3>\r\n         <h3>7779840265</h3>\r\n       </div>\r\n       <div className=\"Faculty-box\">\r\n-        <img src={Staff2} alt=\"Staff\" />\r\n+        <img src={Staff3} alt=\"Staff\" />\r\n         <h3>Gaurav Kumar</h3>\r\n         <h3>PGDM(MBA)</h3> <h3>B.COM</h3>\r\n         <h3>MTCO</h3>\r\n         <h3>School of River Studies</h3>\r\n"
+                },
+                {
+                    "date": 1759936642270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n import \"../Styles/Faculty.css\";\r\n import Staff from \"../Assests/staff1.jpg\";\r\n-import Staff2 from'../Assests/staff2.jpg'\r\n-import Staff1 from \"../Assests/staff3.jpg\";\r\n+import Staff2 from'../Assests/staff2.jpeg'\r\n+import Staff3 from \"../Assests/staff3.jpeg\";\r\n function Faculty() {\r\n   return (\r\n     <>\r\n       <div className=\"Faculty-box\">\r\n"
+                },
+                {
+                    "date": 1759936699667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n import \"../Styles/Faculty.css\";\r\n import Staff from \"../Assests/staff1.jpg\";\r\n-import Staff2 from'../Assests/staff2.jpeg'\r\n-import Staff3 from \"../Assests/staff3.jpeg\";\r\n+import Staff2 from'../Assests/Staff2.jpeg'\r\n+import Staff3 from \"../Assests/Staff3.jpeg\";\r\n function Faculty() {\r\n   return (\r\n     <>\r\n       <div className=\"Faculty-box\">\r\n"
+                },
+                {
+                    "date": 1759936748223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n import \"../Styles/Faculty.css\";\r\n import Staff from \"../Assests/staff1.jpg\";\r\n-import Staff2 from'../Assests/Staff2.jpeg'\r\n-import Staff3 from \"../Assests/Staff3.jpeg\";\r\n+import Staff2 from'../Assests/Staff3.jpeg'\r\n+import Staff3 from \"../Assests/Staff2.jpeg\";\r\n function Faculty() {\r\n   return (\r\n     <>\r\n       <div className=\"Faculty-box\">\r\n"
+                }
+            ],
+            "date": 1759934135737,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport \"../Styles/Faculty.css\";\r\nimport Staff from \"../Assests/staff1.jpg\";\r\n// import Staff1 from'../Assests/staff2.jpg'\r\nimport Staff1 from \"../Assests/staff3.jpg\";\r\nfunction Faculty() {\r\n  return (\r\n    <>\r\n      <div className=\"Faculty-box\">\r\n        <h1>Faculty</h1>\r\n        <img src={Staff} alt=\"Staff\" />\r\n        <h3>Dr. Saad Asghar Moeeni</h3>\r\n        <h3>\r\n          B.Tech, M.Tech, PhD in Civil (Water Resource Engineering), Jamia\r\n          Millia Islamia (Central University)\r\n        </h3>\r\n        <h3>Ex Flood Modeller in Water Resource Department, Govt. of Bihar</h3>\r\n        <h3>Assistant Professor</h3>\r\n        <h3>School of River Studies</h3>\r\n      </div>\r\n      <div className=\"Faculty-box\">\r\n        <h1>Staff</h1>\r\n        <img src={Staff1} alt=\"Staff\" />\r\n        <h3>Nitish Kumar</h3>\r\n        <h3>B.Tech(Electronics and Communication Engineering)</h3>\r\n        <h3>Assistant</h3>\r\n        <h3>School of River Studies</h3>\r\n      </div>\r\n      <div className=\"Faculty-box\">\r\n        <h1>Staff</h1>\r\n        <img src={Staff1} alt=\"Staff\" />\r\n        <h3>Gaurav Kumar</h3>\r\n        <h3>B.Tech(Electronics and Communication Engineering)</h3>\r\n        <h3>Assistant</h3>\r\n        <h3>School of River Studies</h3>\r\n      </div>\r\n    </>\r\n  );\r\n}\r\n\r\nexport default Faculty;\r\n"
+        }
+    ]
+}
