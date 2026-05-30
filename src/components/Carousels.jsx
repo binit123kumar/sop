@@ -2,8 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../Styles/Carousel.css';
-import Third from '../Assests/slider/3.jpg'
-
+import Third from '../Assests/slider/3.jpg';
 
 const Carousels = () => {
   return (
@@ -20,7 +19,7 @@ const Carousels = () => {
       dynamicHeight={true}
     >
       <div>
-        <img src={Third} alt="Image 3" />
+        <img src={Third} alt="Third Slider" />
       </div>
     </Carousel>
   );
