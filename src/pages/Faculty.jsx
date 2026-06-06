@@ -34,8 +34,8 @@ function Faculty() {
       qualification: "",
       designation: "Assistant Professor (guest)", 
       dept: "School of Philosophy",
-      contact: " rd.upd5294@gmail.com",
-      image: sachinPic
+      contact: "rd.upd5294@gmail.com",
+      image: DeepnarayanPic // Yahan pehle sachinPic tha, ab error fix karne ke liye DeepnarayanPic kar diya hai
     }
   ];
 
@@ -148,13 +148,13 @@ function Faculty() {
       marginBottom: '2px'
     },
 
-    // ================= NEW CUSTOM STYLES FOR BLUE FACULTY CARD =================
+    // ================= BLUE FACULTY CARD STYLES =================
     facultyCard: {
       display: 'flex',
       alignItems: 'center',
       padding: '20px',
       borderRadius: '10px',
-      backgroundColor: '#1e3a8a', // Deep Professional Blue
+      backgroundColor: '#1e3a8a', 
       boxShadow: '0 4px 12px rgba(30, 58, 138, 0.25)',
       transition: 'transform 0.2s',
       borderLeft: '6px solid #3b82f6'
@@ -162,48 +162,48 @@ function Faculty() {
     facultyName: {
       margin: '0 0 6px 0', 
       fontWeight: '700', 
-      color: '#ffffff', // White text for blue background
+      color: '#ffffff', 
       fontSize: '1.3rem'
     },
     facultyInfo: {
       margin: '0', 
-      color: '#bfdbfe', // Muted light blue text
+      color: '#bfdbfe', 
       fontSize: '0.95rem',
       lineHeight: '1.5'
     },
     facultyEmail: {
       display: 'block',
-      color: '#60a5fa', // Bright electric blue for visibility
+      color: '#60a5fa', 
       fontWeight: '600',
       marginTop: '4px'
     },
 
-    // ================= NEW CUSTOM STYLES FOR PROFESSIONAL STAFF CARD =================
+    // ================= PROFESSIONAL STAFF CARD STYLES =================
     staffCard: {
       display: 'flex',
       alignItems: 'center',
       padding: '20px',
       borderRadius: '10px',
-      backgroundColor: '#f8fafc', // Modern Off-White / Light Slate
+      backgroundColor: '#f8fafc', 
       boxShadow: '0 4px 6px rgba(0, 0, 0, 0.02)',
       border: '1px solid #e2e8f0',
-      borderLeft: '6px solid #0f766e' // Sophisticated Teal Accent Line
+      borderLeft: '6px solid #0f766e' 
     },
     staffName: {
       margin: '0 0 6px 0', 
       fontWeight: '700', 
-      color: '#0f172a', // Dark Slate Slate
+      color: '#0f172a', 
       fontSize: '1.25rem'
     },
     staffInfo: {
       margin: '0', 
-      color: '#475569', // Professional grey
+      color: '#475569', 
       fontSize: '0.95rem',
       lineHeight: '1.5'
     },
     staffEmail: {
       display: 'block',
-      color: '#0f766e', // Teal color for email link
+      color: '#0f766e', 
       fontWeight: '600',
       marginTop: '4px'
     }
