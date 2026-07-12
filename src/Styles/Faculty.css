@@ -1,15 +1,13 @@
 /* Base styles */
 .Faculty-box {
-    width: 800px; /* Adjust as needed */
-    margin: 0 auto;
+    width: min(800px, calc(100% - 24px));
+    margin: 20px auto;
     text-align: center;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .Faculty-box h1 {
@@ -19,7 +17,7 @@
 }
 
 .Faculty-box img {
-    width: 20%;
+    width: min(180px, 45%);
     height: auto;
     margin-bottom: 20px;
 }
@@ -33,7 +31,6 @@
 /* Media Queries */
 @media (max-width: 768px) {
     .Faculty-box {
-        width: 80%;
         padding: 15px;
     }
 
@@ -44,15 +41,11 @@
     .Faculty-box h3 {
         font-size: 16px;
     }
-    .Faculty-box img {
-        width: 50%;
-    }
 }
 
 @media (max-width: 480px) {
     .Faculty-box {
-        width: 95%;
-        padding: 10px;
+        padding: 12px;
     }
 
     .Faculty-box h1 {
@@ -62,7 +55,8 @@
     .Faculty-box h3 {
         font-size: 14px;
     }
+
     .Faculty-box img {
-        width: 80%;
+        width: 70%;
     }
 }

@@ -1,7 +1,7 @@
 .chat-icon {
     position: fixed;
-    left: 20px; /* Adjust this value to position the icon as per your preference */
-    bottom: 20px; /* Adjust this value to position the icon as per your preference */
+    right: 16px;
+    bottom: 16px;
     width: 50px;
     height: 50px;
     background-color: #800000;
@@ -10,10 +10,24 @@
   }
   
   .chat-icon svg {
-    width: 50px; /* Adjust the width and height as per your icon size */
+    width: 50px;
     height: 50px;
-    cursor: pointer; /* Optional: Add cursor pointer to indicate it's clickable */
-    right:  10px;
+    cursor: pointer;
     color: white;
     padding: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .chat-icon {
+      right: 12px;
+      bottom: 12px;
+      width: 46px;
+      height: 46px;
+    }
+
+    .chat-icon svg {
+      width: 46px;
+      height: 46px;
+      padding: 8px;
+    }
   }

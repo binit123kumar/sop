@@ -1,13 +1,14 @@
 .Important-Box{
-    width: 400px;
-    height: 500px;
+    width: min(400px, calc(100% - 24px));
+    min-height: 500px;
     background-color: #efeded;
     padding: 15px;
+    margin: 0 auto;
 }
 
 .Important-Heading{
     width: 100%;
-    height: 50px;
+    min-height: 50px;
     background: #800000;
     display: flex;
     align-items: center;
@@ -17,9 +18,9 @@
 }
 
 .Important-Content {
-    height: calc(100% - 65px); /* Adjust to fit the box height minus heading and padding */
+    height: calc(100% - 65px);
     overflow-y: auto;
-    padding-right: 15px; /* Space for scrollbar */
+    padding-right: 15px;
 }
 
 .Important-Content::-webkit-scrollbar {
@@ -49,6 +50,11 @@
 
 @media (max-width: 600px) {
     .Important-Box{
-        width: 350px;
+        min-height: 420px;
+    }
+
+    .Important-Heading {
+        font-size: 16px;
+        padding-left: 12px;
     }
 }
