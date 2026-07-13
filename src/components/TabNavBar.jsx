@@ -12,7 +12,9 @@ const TabNavBar = () => {
       content: <Institute/>,
       dropdownOptions: [
         { label: 'About Us', link: '/about' },
-        { label: 'Aim And Objective', link: '/AimAndObjective' }
+        { label: 'Aim And Objective', link: '/AimAndObjective' },
+        { label: 'Vision', link: '/Vision' },
+        { label: 'Mission', link: '/Mission' }
       ]
     },
     {
@@ -25,8 +27,11 @@ const TabNavBar = () => {
     {
       label: 'Faculty/Staff',
       dropdownOptions: [
-        { label: 'Faculty/Staff' , link: '/Faculty' },
-        { label: 'Academic Advisory Committee', link: '/Aac' },
+        { label: 'Coordinator/Incharge Of School' , link: '/Faculty' },
+        { label: 'Visiting Faculty', link: '/Visiting Faculty' },
+        { label: 'Guest Faculty', link: '/Guest Faculty' },
+        { label: 'Staff', link: '/Staff' }
+        
       ]
     },
    
@@ -36,18 +41,24 @@ const TabNavBar = () => {
         { label: 'Events', link: '/Event' },
       ]
     },
-//    {
-//      label: 'eResources',
-//     dropdownOptions: [
-//      { label: 'UGC', link: 'https://www.ugc.gov.in/' },
-//      { label: 'NDA', link: 'https://www.nda.gov.in/' },
-//      { label: 'SWAYAM', link: 'https://www.swayam.gov.in/' },
-//      { label: 'SWAYAM PRABHA', link: 'https://www.swayamprabhay.gov.in/' },
-//      { label: 'EGYANKOSH', link: 'https://www.inflibnet.ac.in/' },
-//      { label: 'EPATHSHALA', link: 'https://epathshala.nic.in/' },
-//      { label: 'ISRO', link: 'https://www.isro.gov.in/' },
-//      ]
-//    },
+   {
+     label: 'eResources',
+   dropdownOptions: [
+     { label: 'UGC', link: 'https://www.ugc.gov.in/' },
+      { label: 'NDA', link: 'https://www.nda.gov.in/' },
+    { label: 'SWAYAM', link: 'https://www.swayam.gov.in/' },
+     { label: 'SWAYAM PRABHA', link: 'https://www.swayamprabhay.gov.in/' },
+      { label: 'EGYANKOSH', link: 'https://www.inflibnet.ac.in/' },
+     { label: 'EPATHSHALA', link: 'https://epathshala.nic.in/' },
+     { label: 'ISRO', link: 'https://www.isro.gov.in/' },
+     ]
+ },
+ {
+      label: 'Committee',
+      dropdownOptions: [
+       { label: 'Academic Advisory Committee', link: '/Aac' }
+      ]
+    },
     {
       label: 'Contact',
       content: <Contact/>,
