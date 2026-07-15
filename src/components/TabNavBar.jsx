@@ -56,7 +56,7 @@ const TabNavBar = () => {
  {
       label: 'Committee',
       dropdownOptions: [
-       { label: 'Academic Advisory Committee', link: '/Aac' }
+       { label: 'Board of Studies', link: '/Aac' }
       ]
     },
     {
