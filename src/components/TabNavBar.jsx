@@ -27,9 +27,9 @@ const TabNavBar = () => {
     {
       label: 'Faculty/Staff',
       dropdownOptions: [
-        { label: 'Coordinator/Incharge Of School' , link: '/Faculty' },
-        { label: 'Visiting Faculty', link: '/Visiting Faculty' },
-        { label: 'Guest Faculty', link: '/Guest Faculty' },
+        { label: 'Consultant/Incharge Of School' , link: '/Faculty' },
+        { label: 'Visiting Faculty', link: '/VisitingFaculty' },
+        { label: 'Guest Faculty', link: '/GuestFaculty' },
         { label: 'Staff', link: '/Staff' }
         
       ]
@@ -51,12 +51,15 @@ const TabNavBar = () => {
       { label: 'EGYANKOSH', link: 'https://www.inflibnet.ac.in/' },
      { label: 'EPATHSHALA', link: 'https://epathshala.nic.in/' },
      { label: 'ISRO', link: 'https://www.isro.gov.in/' },
+     { label: 'ICPR', link: 'https://icpr.in/' },
+     { label: 'ICSR', link: 'https://icssr.org/' }
      ]
  },
  {
       label: 'Committee',
       dropdownOptions: [
-       { label: 'Board of Studies', link: '/Aac' }
+        { label: 'Board of Studies', link: '/Aac' },
+        { label: 'Academic Advisory Committee', link: '/Bos' }
       ]
     },
     {

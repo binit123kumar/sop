@@ -1,23 +1,29 @@
 import React from "react";
 
 // Sahi Relative Path: Aapka images import structure
-import sachinPic from "../Assests/faculty/sachinPic.jpeg";
+import RupeshPic from "../Assests/faculty/RupeshPic.jpeg";
+import DeepnarayanPic from "../Assests/faculty/DeepnarayanPic.jpeg";
 
-function Faculty() {
+function GuestFaculty() {
   // 1. Faculty Section Data
   const facultyList = [
     {
-      name: "Dr. Sachin Pandey",
-      qualification: "M.A, Ph.D",
-      designation: "Consultant", 
+      name: "Dr. Rupesh Kumar Singh",
+      qualification: "M.A, PhD",
+      designation: "Assistant professor (Guest)", 
       dept: "School of Philosophy",
-      contact: "sachinp781998@gmail.com",
-      image: sachinPic
+      contact: "rupesh.singh649@gmail.com",
+      image: RupeshPic
     },
-    
+    {
+      name: "Dr. Deepnarayan Upadhyay",
+      qualification: "M.A, PhD",
+      designation: "Assistant Professor (guest)", 
+      dept: "School of Philosophy",
+      contact: "rd.upd5294@gmail.com",
+      image: DeepnarayanPic // Yahan pehle sachinPic tha, ab error fix karne ke liye DeepnarayanPic kar diya hai
+    }
   ];
-
-  
 
   // --- Inline Styles ---
   const styles = {
@@ -114,7 +120,6 @@ function Faculty() {
       marginTop: '4px'
     }
 
-    
   };
 
   return (
@@ -123,11 +128,13 @@ function Faculty() {
         
         {/* Main Page Heading */}
         <div style={styles.titleSection}>
-          <h2 style={styles.titleText}>Consultant / Incharge of School</h2>
+          <h2 style={styles.titleText}>ASSISTANT PROFESSOR (GUEST FACULTY)</h2>
         </div>
 
         {/* ================= FACULTY SECTION (BLUE THEME) ================= */}
-
+        <h3 style={styles.sectionHeading}>
+          <span style={{color: '#1e3a8a'}}>🔹</span> Faculty Members
+        </h3>
         <div style={styles.listGroup}>
           {facultyList.map((faculty, index) => (
             <div key={index} style={styles.facultyCard}>
@@ -156,7 +163,7 @@ function Faculty() {
                     <strong>Department:</strong> {faculty.dept}
                   </span>
                   <span style={styles.facultyEmail}>
-                    <strong>Email:</strong> {faculty.contact}
+                    <strong>Contact / Email:</strong> {faculty.contact}
                   </span>
                 </p>
               </div>
@@ -169,4 +176,4 @@ function Faculty() {
   );
 }
 
-export default Faculty;
+export default GuestFaculty;

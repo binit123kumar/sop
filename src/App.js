@@ -10,6 +10,10 @@ import Event from "./pages/Event";
 import HomeButton from "./components/HomeButton";
 import Footer from './components/Footer'
 import Aac from "./pages/Aac";
+import Bos from "./pages/Bos";
+import VisitingFaculty from "./pages/VisitingFaculty";
+import GuestFaculty from "./pages/GuestFaculty";
+import Staff from "./pages/Staff";
 
 function App() {
   return (
@@ -24,6 +28,12 @@ function App() {
         <Route path="/AimAndObjective" element={<AimAndObjective/>} />
         <Route path="/Event" element={<Event/>} />
         <Route path="/Aac" element={<Aac/>} />
+        <Route path="/Bos" element={<Bos/>} />
+        <Route path="/Staff" element={<Staff/>} />
+        <Route path="/GuestFaculty" element={<GuestFaculty/>} />
+        <Route path="/VisitingFaculty" element={<VisitingFaculty/>} />
+        
+
       </Routes>
       <HomeButton/>
       <Footer/>
