@@ -2,6 +2,9 @@ import React from "react";
 import '../Styles/Aac.css';
 import female from "../Assests/AAC/female_images.jpg";
 import male from "../Assests/AAC/male_images.jpg";
+import first from "../Assests/AAC/N.P.jpeg";
+import second from "../Assests/AAC/S.K.jpeg";
+import third from "../Assests/AAC/VCSirMessagePic.jpeg"
 
 function Bos() {
   return (
@@ -12,13 +15,13 @@ function Bos() {
         </h1>
         <div className="card-people-item">
           <div className="card-people-img">
-            <img src={male} alt="Prof. (Dr.) Sharad Kumar Yadav" />
+            <img src={third} alt="Prof. (Dr.) Sharad Kumar Yadav" />
           </div>
           <div className="card-people-text">
             <p><b>Chairman</b></p>
             <h4 style={{marginBottom: "10px"}}>Prof. (Dr.) Sharad Kumar Yadav</h4>
-            
-            <p>Hon'ble Vice-Chancellor, Aryabhatta Knowledge University, Patna</p>
+            <p>Hon'ble Vice-Chancellor</p>
+            <p>Aryabhatta Knowledge University, Patna</p>
             
           </div>
         </div>
@@ -67,7 +70,7 @@ function Bos() {
         </div>
         <div className="card-people-item">
           <div className="card-people-img">
-            <img src={male} alt="Prof. N. P. Tiwary" />
+            <img src={first} alt="Prof. N. P. Tiwary" />
           </div>
           <div className="card-people-text">
             <p> <b>Member</b> </p>
@@ -106,7 +109,7 @@ function Bos() {
         </div>
         <div className="card-people-item">
           <div className="card-people-img">
-            <img src={female} alt="Dr. Shyamal Kishor" />
+            <img src={second} alt="Dr. Shyamal Kishor" />
           </div>
           <div className="card-people-text">
             <p> <b>Member</b> </p>
