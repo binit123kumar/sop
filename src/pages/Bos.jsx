@@ -1,12 +1,5 @@
 import React from "react";
 import '../Styles/Aac.css';
-import one from "../Assests/AAC/RP.jpg";
-import two from "../Assests/AAC/SP.jpg";
-import three from "../Assests/AAC/SK.jpg";
-import five from "../Assests/AAC/PS.jpg";
-import six from "../Assests/AAC/VS.jpg";
-import seven from "../Assests/AAC/AU.jpg";
-import eight from "../Assests/AAC/AV.jpg";
 import female from "../Assests/AAC/female_images.jpg";
 import male from "../Assests/AAC/male_images.jpg";
 

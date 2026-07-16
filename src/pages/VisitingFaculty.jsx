@@ -9,7 +9,7 @@ function VisitingFaculty() {
     <div className="card-container-People">
       <div className="card-people">
         <h1 style={{textAlign: 'center', marginTop: "20px", textShadow: "rgba(0, 0, 0, 0.3) 2px 2px 4px"}}>
-          Board of Studies
+          VISITING FACULTY
         </h1>
         <div className="card-people-item">
           <div className="card-people-img">
