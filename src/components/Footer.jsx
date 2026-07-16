@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="Footer-par">
+    <div className="Footer-par d-flex justify-content-around align-items-start flex-wrap">
       <div className="Footer-first-section">
         <div className="footer-logo-section">
           <img 

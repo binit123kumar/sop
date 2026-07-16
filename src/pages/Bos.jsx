@@ -18,7 +18,7 @@ function Bos() {
             <p><b>Chairman</b></p>
             <h4 style={{marginBottom: "10px"}}>Prof. (Dr.) Sharad Kumar Yadav</h4>
             
-            <p>Vice-Chancellor, Aryabhatta Knowledge University, Patna</p>
+            <p>Hon'ble Vice-Chancellor, Aryabhatta Knowledge University, Patna</p>
             
           </div>
         </div>
